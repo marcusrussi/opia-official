@@ -1,0 +1,62 @@
+body {
+    background-color: rgb(15, 23, 39);
+    color: white;
+    background-image: url(images/bg1.jpg),
+                      url(images/bg2.jpg);
+    background-position: top left, bottom right;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 35% auto, 35% auto;
+    background-attachment: fixed scroll;
+    height: 750px;
+}
+
+#main {
+    margin: 0 0 0 0;
+}
+
+#left {
+    margin-top: 30%;
+}
+
+#right {
+    padding: 7% 12% 0 12%;
+}
+
+.albumart {
+    border: 1px solid #71778C;
+    border-radius: 2px;
+    margin-right: auto;
+    margin-left: 12%;
+    width: 75%;
+    height: auto;
+}
+
+.soundcloud {
+    margin-left: 12%;
+    margin-right: 12%;
+    margin-top: 30px;
+}
+
+.links {
+    font-family: "Pier Sans Regular", sans-serif;
+    color: #D5D6D9;
+}
+
+.links a {
+    color: #D5D6D9;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: block;
+    font-size: 2em;
+}
+
+.links a:hover {
+    color: #ED64A3;
+}
+
+@font-face {
+    font-family: "Pier Sans Regular";
+    src: url("resources/pier-regular.otf");
+}
+
